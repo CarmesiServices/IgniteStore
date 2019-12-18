@@ -1,2 +1,2 @@
 # IgniteStore
-We work on the design of the ignite gaming store page, a merida yucatan store which specializes in component sales and rental of gamer computers.
+The frontend for an e-comerce for a computers store.
