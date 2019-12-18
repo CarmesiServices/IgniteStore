@@ -1,0 +1,400 @@
+.current-page {
+  color: #AC182E !important;
+}
+
+.dropbtn {
+  background-color: black;
+  padding: 5px;
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: black;
+}
+
+
+
+.bg-dark-gray {
+  background-color: #151719;
+}
+
+.black-magic-circle {
+  position: absolute;
+  right: 120px;
+  top: 280px;
+
+}
+
+.black-magic-circle-icon {
+  font-size: 3rem !important;
+
+}
+
+.black-magic-circle-number {
+  color: white;
+  font-size: 1.3rem;
+  position: absolute;
+  top: 13px;
+  left: 18px;
+
+}
+
+.black-magic-circle-text {
+  padding-left: 30px;
+}
+
+/*  Existencias 
+
+Poner la clase .existencias-no cuando no haya existencias.
+
+Poner la clase .existencias-si cuando si haya existencias.
+
+*/
+
+
+.existencias-no h5 {
+  color: white;
+  background-color: #AC182E;
+}
+
+.existencias-no span {
+  color: #AC182E;
+}
+
+.existencias-si h5 {
+  color: white;
+  background-color: #28a745;
+}
+
+.existencias-si span {
+  color: #28a745;
+}
+
+@media (min-width: 320px){
+  .black-magic-circle {
+
+    position: absolute;
+    left: 70px;
+    top: 390px;
+
+  }
+
+  .black-magic-circle-icon {
+    font-size: 3rem !important;
+
+  }
+
+  .black-magic-circle-number {
+    color: white;
+    font-size: 1.2rem;
+    position: absolute;
+    top: 9px;
+    left: 15px;
+
+  }
+
+  .black-magic-circle-text {
+    padding-left: 30px;
+  } 
+}
+
+@media (min-width: 360px){
+  .black-magic-circle {
+
+    position: absolute;
+    left: 90px;
+    top: 448px;
+
+  }
+
+  .black-magic-circle-icon {
+    font-size: 3rem !important;
+
+  }
+
+  .black-magic-circle-number {
+    color: white;
+    font-size: 1.2rem;
+    position: absolute;
+    top: 9px;
+    left: 15px;
+
+  }
+
+  .black-magic-circle-text {
+    padding-left: 30px;
+  }
+}
+
+@media (min-width: 375px){
+  .black-magic-circle {
+
+    position: absolute;
+    left: 100px;
+    top: 470px;
+
+  }
+
+  .black-magic-circle-icon {
+    font-size: 3rem !important;
+
+  }
+
+  .black-magic-circle-number {
+    color: white;
+    font-size: 1.2rem;
+    position: absolute;
+    top: 9px;
+    left: 15px;
+
+  }
+
+  .black-magic-circle-text {
+    padding-left: 30px;
+  }
+
+}
+
+@media (min-width: 411px ){
+  .black-magic-circle {
+
+    position: absolute;
+    left: 117px;
+    top: 520px;
+
+  }
+
+  .black-magic-circle-icon {
+    font-size: 3rem !important;
+
+  }
+
+  .black-magic-circle-number {
+    color: white;
+    font-size: 1.2rem;
+    position: absolute;
+    top: 9px;
+    left: 15px;
+
+  }
+
+  .black-magic-circle-text {
+    padding-left: 30px;
+  }
+
+}
+
+@media (min-width: 414px ){
+  .black-magic-circle {
+
+    position: absolute;
+    left: 117px;
+    top: 525px;
+
+  }
+
+  .black-magic-circle-icon {
+    font-size: 3rem !important;
+
+  }
+
+  .black-magic-circle-number {
+    color: white;
+    font-size: 1.2rem;
+    position: absolute;
+    top: 9px;
+    left: 15px;
+
+  }
+
+  .black-magic-circle-text {
+    padding-left: 30px;
+  }
+
+}
+
+@media (min-width: 425px){
+  .black-magic-circle {
+
+    position: absolute;
+    left: 125px;
+    top: 540px;
+
+  }
+
+  .black-magic-circle-icon {
+    font-size: 3rem !important;
+
+  }
+
+  .black-magic-circle-number {
+    color: white;
+    font-size: 1.2rem;
+    position: absolute;
+    top: 9px;
+    left: 15px;
+
+  }
+
+  .black-magic-circle-text {
+    padding-left: 30px;
+  }
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .black-magic-circle {
+
+    position: absolute;
+    left: 180px;
+    top: 705px;
+
+  }
+
+  .black-magic-circle-icon {
+    font-size: 3rem !important;
+
+  }
+
+  .black-magic-circle-number {
+    color: white;
+    font-size: 1.2rem;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+
+  }
+
+  .black-magic-circle-text {
+    padding-left: 30px;
+  }  
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+  .black-magic-circle {
+
+    position: absolute;
+    left: 30px;
+    top: 273px;
+
+  }
+
+  .black-magic-circle-icon {
+    font-size: 3rem !important;
+
+  }
+
+  .black-magic-circle-number {
+    color: white;
+    font-size: 1.2rem;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+
+  }
+
+  .black-magic-circle-text {
+    padding-left: 30px;
+  }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+
+
+  .black-magic-circle {
+
+    position: absolute;
+    left: 30px;
+    top: 273px;
+
+  }
+
+  .black-magic-circle-icon {
+    font-size: 3rem !important;
+
+  }
+
+  .black-magic-circle-number {
+    color: white;
+    font-size: 1.2rem;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+
+  }
+
+  .black-magic-circle-text {
+    padding-left: 30px;
+  }
+
+
+}
+
+/* Extra large devices (large desktops, 1200px and up)  */
+@media (min-width: 1200px) {
+
+
+  .black-magic-circle {
+    position: absolute;
+    left: 39px;
+    top: 280px;
+
+  }
+
+  .black-magic-circle-icon {
+    font-size: 3rem !important;
+
+  }
+
+  .black-magic-circle-number {
+    color: white;
+    font-size: 1.2rem;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+
+  }
+
+  .black-magic-circle-text {
+    padding-left: 30px;
+    font-size: 1rem !important;
+
+  }
+
+}

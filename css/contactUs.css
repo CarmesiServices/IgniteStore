@@ -1,0 +1,222 @@
+
+
+/* footer */
+.section-margin-footer {
+    padding-top: 50px;
+    padding-bottom: 40px;
+  }
+  
+  .footer-area {
+    border-top: 8px solid #AB182D;
+    background-color: black !important;
+    /*margin-top: 30px;*/
+  }
+
+  .contact-us-title h1 {
+    text-transform: uppercase;
+    font-weight: bold !important;
+    color: white !important;
+  }
+  
+  .contact-us-title-border {
+    height: 1px;
+    width: 105px;
+    border-bottom: 5px solid #AB182D;
+  }
+
+  .c-red {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #AB182D !important;
+  }
+
+  .contact-us-data {
+    font-weight: bold;
+  }
+
+  @media only screen and (min-width: 600px) {
+    .mid-footer-container {
+      padding-left: 95px;
+    }
+  
+    .border-right-w {
+      border-right: 2px solid white;
+    }
+  
+    .login-information {
+      background-color: white;
+  
+      margin: 0 auto;
+      width: 400px;
+  
+      border-bottom: 10px solid  #AB182D !important;
+    }
+  }
+
+  .row {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
+  .social-media-bt {
+    margin-bottom: 10px;
+    color: #AB182D;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  #special-prods > .col-md-4 {
+    padding: 0 !important;
+  }
+
+  #special-prods > .col-md-4:nth-child(1) {
+    padding-left: 0;
+    padding-right: 25px;
+  }
+  
+  #special-prods > .col-md-4:nth-child(2) {
+  }
+  
+  #special-prods > .col-md-4:nth-child(3) {
+    padding-left: 25px;
+    padding-right: 0;
+  }
+
+
+/* footer */
+figure {
+    max-width: 100%;
+  }
+  html,
+  body {
+    overflow-x: hidden;
+    color: #000;
+    -ms-overflow-style: scrollbar;
+    -webkit-font-smoothing: antialiased;
+  }
+  a,
+  a:hover,
+  a:focus,
+  a:active {
+    text-decoration: none;
+    color: inherit;
+  }
+  a {
+    transition: all .25s ease-in-out;
+  }
+  .ct-u-paddingTop10 {
+    padding-top: 10px !important;
+  }
+  .ct-footer {
+    background-color: #111;
+    padding-top: 40px;
+    position: relative;
+  }
+  .ct-footer-pre {
+    width: 100%;
+    padding-bottom: 55px;
+    border-bottom: 1px solid #555;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  .ct-footer-pre span {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #ebebeb;
+    font-size: 30px;
+  }
+  .ct-footer-pre .form-group {
+    position: relative;
+    margin: 0;
+  }
+  .ct-footer-pre .form-group:before,
+  .ct-footer-pre .form-group:after {
+    content: '';
+    display: table;
+  }
+  .ct-footer-pre .form-group:after {
+    clear: both;
+  }
+  .ct-footer-pre .form-group input {
+    border: 1px solid #00bff3;
+    background-color: #333;
+    color: #fff;
+    height: 50px;
+    padding: 0 30px;
+    margin: 0 5px;
+    border-radius: 0 !important;
+  }
+  .ct-footer-pre .form-group button {
+    height: 50px;
+    position: relative;
+    width: 80px;
+    padding: 0
+  }
+  .ct-footer-list {
+    padding: 50px 0;
+    list-style: none;
+    padding-left: 0;
+    display: table;
+    width: 100%;
+    border-bottom: 1px solid #555;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  .ct-footer-list > li .ct-footer-list-header {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #00bff3;
+    font-size: 30px;
+  }
+  .ct-footer-list > li ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  .ct-footer-list > li ul li a {
+    color: #fff;
+  }
+  .ct-footer-list > li ul li a:hover,
+  .ct-footer-post a:hover {
+    text-decoration: underline;
+  }
+  .ct-footer-post {
+    background: #000;
+    padding: 30px 0;
+    min-height: 100px;
+  }
+  .ct-footer-post .inner-left,
+  .ct-footer-post .inner-right {
+    padding: 20px 0;
+  }
+  .ct-footer-post ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0 -20px;
+  }
+  .ct-footer-post ul li {
+    display: inline-block;
+    margin: 0 20px;
+  }
+  .ct-footer-post a {
+    color: #fff;
+  }
+  .ct-footer-post p {
+    color: #fff;
+  }
+  .ct-footer-meta {
+    padding-bottom: 30px;
+  }
+  .ct-footer-meta .ct-socials {
+    padding: 20px 0;
+  }
+  .ct-footer-meta .ct-socials li {
+    padding: 0 1px;
+  }
+  
+  .ct-socials li a {
+    color: #AB182D !important;
+    font-size: 35px;
+    padding: 0 15px;
+  }
+  
+  .ct-socials li a:hover {
+    color: white !important;
+  }
+  
+  .ct-footer--with-button {
+    padding-top: 150px;
+  }

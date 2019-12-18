@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+	<title>Ignite Store</title>
+	<meta charset="UTF-8">
+	<meta name="description" content=" Ignite | Gamming Center ">
+	<meta name="keywords" content="ignite, gamming, videogames, videojuegos, game store, eCommerce">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Favicon -->
+	<link href="./assets/favicon.ico" rel="shortcut icon" />
+
+	<!-- Google Font -->
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,300i,400,400i,700,700i" rel="stylesheet">
+
+	<!-- Google Font IGNITE GAMING CENTER-->
+	<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+
+	<!-- LINK REFERENCIA ICONOS -->
+	<link rel="stylesheet" href="/IgniteStore/icon-fonts/Iconmoon/styleIcon.css">
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/font-awesome.min.css" />
+	<link rel="stylesheet" href="css/flaticon.css" />
+	<link rel="stylesheet" href="css/slicknav.min.css" />
+	<link rel="stylesheet" href="css/jquery-ui.min.css" />
+	<link rel="stylesheet" href="css/owl.carousel.min.css" />
+	<link rel="stylesheet" href="css/animate.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+</head>
+
+<body>
+	<!-- Page Preloder -->
+	<div id="preloder">
+		<div class="loader"></div>
+	</div>
+
+	<!-- Header section -->
+	<div>
+		<nav class=" sticky-top navbar-expand-md " style="background-color: #AC182E;">
+			<!--Mostrar en moviles-->
+			<div class=" d-flex justify-content-between pt-2 d-block d-md-none ">
+
+
+
+				<div class="d-md-flex col-4 align-items-center text-white d-flex   ">
+
+					<li class="nav-item border-right px-2 ">
+						<a class="  " href="">
+							<h6 style="font-size: 0.6rem;">Productos destacados</h6>
+						</a>
+					</li>
+
+					<li class="nav-item border-right px-2 ">
+						<a class=" " href="aboutUs.html">
+							<h6 style="font-size: 0.6rem;"> ¿Quienes somos?</h6>
+						</a>
+					</li>
+
+					<li class="nav-item px-2 ">
+						<a class=" " href="#">
+							<h6 style="font-size: 0.6rem;"> Preguntas Frecuentes </h6>
+						</a>
+					</li>
+				</div>
+
+
+
+
+				<div class=" col-4 justify-content-between align-items-center d-flex  ">
+
+					<li class="nav-item text-white">
+						<a href="./500.html"> <i style="font-size: 1rem;"
+								class="material-icons align-middle ">local_offer</i> </a>
+					</li>
+
+					<li class="nav-item text-white ">
+						<a href="cart.html"> <i style="font-size: 1rem;"
+								class="material-icons align-middle ">local_grocery_store</i> </a>
+					</li>
+
+					<li class="nav-item text-white  ">
+						<a href="./500.html"> <i style="font-size: 1rem;" class="material-icons align-middle">person</i>
+						</a>
+					</li>
+
+					<li class=" nav-item text-white  ">
+						<a href="#" target="_blank"><i class="fab fa-whatsapp align-middle" aria-hidden="true"></i></a>
+					</li>
+
+				</div>
+
+			</div>
+			<div class="d-flex justify-content-end ">
+
+				<button class="navbar-toggler col-6   ">
+					<a href="./index.html"> <img class="" src="assets/Logo-ignite.png" alt=""></a>
+				</button>
+
+				<button class="navbar-toggler col-3  ml-0 align-middle rounded p-0 " data-toggle="collapse"
+					data-target=".navbars"> <i class="material-icons text-white sandwich-btn p-2 m-0">
+						toc
+					</i> </button>
+				</i> </button>
+				</i> </button>
+				</i> </button>
+				</i> </button>
+				</i> </button>
+				</i> </button>
+				</i> </button>
+				</i> </button>
+
+
+			</div>
+
+			<div class="pb-1 col-12 d-flex justify-content-around p-0 m-0">
+				<form action="/products" class="header-search-form d-md-none col-8 p-0 m-0 nav-item  ">
+
+					<input type="search" name="keywords" id="keywords" class="search-form form-control pl-5 col-12 m-2"
+						placeholder="Buscar">
+
+					<button> <i class="flaticon-search"> </i> </button>
+
+				</form>
+			</div>
+
+
+
+
+
+
+			<!--Sub Navbar Red-->
+			<div class="collapse navbar-collapse navbars nav-fill" id="collapse_target1">
+				<!--Mostrar en Desktop-->
+				<div class="d-none  d-md-flex  w-100 py-1">
+
+					<form action="/products" class="header-search-form col-md-3 nav-item">
+
+						<input type="search" name="keywords" id="keywords" class="search-form form-control pl-5 col-12"
+							placeholder="Buscar">
+
+						<button> <i class="flaticon-search"> </i> </button>
+
+					</form>
+
+					<div class="d-md-flex col-md-6 align-items-center">
+						<li class="nav-item">
+							<a class="nav-link" href="" style="color: white;">Productos Destacados </a>
+
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="aboutUs.html" style="color: white;">¿Quienes somos?</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#" style="color: white;">Preguntas Frecuentes</a>
+						</li>
+					</div>
+
+					<div class="d-md-flex col-md-3 align-items-center pt-2 pt-md-0 ">
+						<li class="nav-item text-white">
+
+							<i class="material-icons align-middle ">local_offer</i>
+							<a href="./500.html">OFFER</a>
+
+
+						<li class="nav-item text-white pt-2 pt-md-0  ">
+
+							<i class="material-icons align-middle ">local_grocery_store</i>
+							<a href="cart.html">SHOP</a>
+
+
+						</li>
+						<li class="nav-item text-white pt-2 pt-md-0 ">
+
+
+							<i class="material-icons align-middle">person</i>
+							<a href="./500.html">LOGIN</a>
+						</li>
+
+
+					</div>
+
+				</div>
+			</div>
+
+			<!--Sub Navbar Black-->
+			<nav class=" navbar-expand-md" style="background-color: black;">
+				<div class="collapse navbar-collapse navbars" id="collapse_target2">
+					<div class=" d-md-flex justify-content-around  w-100 text-center  align-items-center ">
+
+						<li class="nav-item d-flex">
+
+							<a href="index.html">
+								<img class="img-fluid nav-brand-img d-none d-md-none d-lg-block"
+									src="assets/logo-color.png" alt="">
+							</a>
+							<a href="index.html">
+								<img class="img-fluid  d-none d-md-block d-lg-none p-3 " src="assets/logo-color-cut.png"
+									alt="Ignite Logo">
+							</a>
+
+
+
+						</li>
+						<li class="nav-item ">
+							<a class="nav-link  " href="category-ensambles.html" style="color: white;">ENSAMBLES
+								IGNITER</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="category-componentes.html" style="color: white;">COMPONENTES</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="category-accesorios.html" style="color: white;">ACCESORIOS</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="category-monitores.html" style="color: white;">MONITORES</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="category-sillas.html" style="color: white;">SILLAS GAMER</a>
+						</li>
+					</div>
+				</div>
+			</nav>
+		</nav>
+
+	</div>
+	<!-- Header section end -->
+
+
+
+	<!-- Hero section -->
+
+	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+		<ol class="carousel-indicators">
+			<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active index-carousel"></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="1" class="index-carousel"></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="2" class="index-carousel"></li>
+		</ol>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img src="https://www.ignitestore.com.mx/galeria/albums/album/lg/52018-63463299.jpg"
+					class="d-block w-100" alt="IMAGE NOT FOUND">
+			</div>
+			<div class="carousel-item">
+				<img src="https://www.ignitestore.com.mx/galeria/albums/album/lg/719329-77751632.jpg"
+					class="d-block w-100" alt="IMAGE NOT FOUND">
+			</div>
+			<div class="carousel-item">
+				<img src="https://www.ignitestore.com.mx/galeria/albums/album/lg/321387-31262574.jpg"
+					class="d-block w-100" alt="IMAGE NOT FOUND">
+			</div>
+		</div>
+		<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+	</div>
+
+	<!-- Hero section final-->
+
+
+
+	<!--Ensambles Ignite y Productos destacados-->
+
+	<div class=" container text-center bg-white rounded mt-3 pb-5">
+		<div class="pt-5">
+			<!-- TEXTO EN WEB   font-weight-bolder text-center  TituloBold -->
+
+			<h1 class=" d-none d-md-block text-uppercase  text-left index-ensambles pt-4 mt-1  pl-5 ml-md-4 "
+				style="font-size: 3.4rem;">
+				ensambles<br>igniter<div class="section-title-border"></div>
+			</h1>
+			<!-- TEXTO EN MOVILES -->
+			<h2 class=" d-md-none text-uppercase font-weight-bold text-left index-ensambles pl-3"
+				style="font-size: 1.8rem;">ensambles<br>igniter
+				<div class="section-title-border"></div>
+			</h2>
+
+
+			<div class="ensamblesIgniter row">
+
+				<!--Product Card-->
+				<div class=" col-6 col-md-4 my-1  mt-5 p-0">
+					<img class="img-fluid w-100" src="./img/product/producto1.jpg" alt="ASUS ROG 4 SLI BRIDGE">
+					<h6 class="font-weight-bold text-black mt-3  index-card-title ">ASUS ROG 4 WAY SLI BRIDGE</h6>
+					<div class=" d-flex justify-content-center align-items-end mb-2">
+						<h4 class="font-weight-bolder  mr-2 red-ig index-card-price ">$1,300 </h4>
+						<p class=" mb-1 index-card-iva "> MXN incluye IVA</p>
+					</div>
+					<div class="w-100"></div>
+					<div class="col-md-12 p-0 text-center ">
+						<button class="bg-white border border-dark index-favorite-btn">
+							<i class="material-icons align-middle index-favorite-icon "> favorite </i>
+						</button>
+						<button class="btn btn-success rounded-0 index-cart-btn text-uppercase font-weight-bold ">¡LO
+							QUIERO!<i class="material-icons align-middle index-cart-icon ">shopping_cart</i>
+						</button>
+					</div>
+				</div>
+
+				<!--Product Card-->
+				<div class=" col-6 col-md-4 my-1  mt-5 p-0">
+					<img class="img-fluid w-100" src="./img/product/producto1.jpg" alt="ASUS ROG 4 SLI BRIDGE">
+					<h6 class="font-weight-bold text-black mt-3  index-card-title ">ASUS ROG 4 WAY SLI BRIDGE</h6>
+					<div class=" d-flex justify-content-center align-items-end mb-2">
+						<h4 class="font-weight-bolder  mr-2 red-ig index-card-price ">$1,300 </h4>
+						<p class=" mb-1 index-card-iva "> MXN incluye IVA</p>
+					</div>
+					<div class="w-100"></div>
+					<div class="col-md-12 p-0 text-center ">
+						<button class="bg-white border border-dark index-favorite-btn">
+							<i class="material-icons align-middle index-favorite-icon "> favorite </i>
+						</button>
+						<button class="btn btn-success rounded-0 index-cart-btn text-uppercase font-weight-bold ">¡LO
+							QUIERO!<i class="material-icons align-middle index-cart-icon ">shopping_cart</i>
+						</button>
+					</div>
+				</div>
+
+				<!--Product Card-->
+				<div class=" col-6 col-md-4 my-1  mt-5 p-0">
+					<img class="img-fluid w-100" src="./img/product/producto1.jpg" alt="ASUS ROG 4 SLI BRIDGE">
+					<h6 class="font-weight-bold text-black mt-3  index-card-title ">ASUS ROG 4 WAY SLI BRIDGE</h6>
+					<div class=" d-flex justify-content-center align-items-end mb-2">
+						<h4 class="font-weight-bolder  mr-2 red-ig index-card-price ">$1,300 </h4>
+						<p class=" mb-1 index-card-iva "> MXN incluye IVA</p>
+					</div>
+					<div class="w-100"></div>
+					<div class="col-md-12 p-0 text-center ">
+						<button class="bg-white border border-dark index-favorite-btn">
+							<i class="material-icons align-middle index-favorite-icon "> favorite </i>
+						</button>
+						<button class="btn btn-success rounded-0 index-cart-btn text-uppercase font-weight-bold ">¡LO
+							QUIERO!<i class="material-icons align-middle index-cart-icon ">shopping_cart</i>
+						</button>
+					</div>
+				</div>
+
+				<!--Product Card-->
+				<div class=" col-6 col-md-4 my-1  mt-5 p-0">
+					<img class="img-fluid w-100" src="./img/product/producto1.jpg" alt="ASUS ROG 4 SLI BRIDGE">
+					<h6 class="font-weight-bold text-black mt-3  index-card-title ">ASUS ROG 4 WAY SLI BRIDGE</h6>
+					<div class=" d-flex justify-content-center align-items-end mb-2">
+						<h4 class="font-weight-bolder  mr-2 red-ig index-card-price ">$1,300 </h4>
+						<p class=" mb-1 index-card-iva "> MXN incluye IVA</p>
+					</div>
+					<div class="w-100"></div>
+					<div class="col-md-12 p-0 text-center ">
+						<button class="bg-white border border-dark index-favorite-btn">
+							<i class="material-icons align-middle index-favorite-icon "> favorite </i>
+						</button>
+						<button class="btn btn-success rounded-0 index-cart-btn text-uppercase font-weight-bold ">¡LO
+							QUIERO!<i class="material-icons align-middle index-cart-icon ">shopping_cart</i>
+						</button>
+					</div>
+				</div>
+
+				<!--Product Card-->
+				<div class=" col-6 col-md-4 my-1  mt-5 p-0">
+					<img class="img-fluid w-100" src="./img/product/producto1.jpg" alt="ASUS ROG 4 SLI BRIDGE">
+					<h6 class="font-weight-bold text-black mt-3  index-card-title ">ASUS ROG 4 WAY SLI BRIDGE</h6>
+					<div class=" d-flex justify-content-center align-items-end mb-2">
+						<h4 class="font-weight-bolder  mr-2 red-ig index-card-price ">$1,300 </h4>
+						<p class=" mb-1 index-card-iva "> MXN incluye IVA</p>
+					</div>
+					<div class="w-100"></div>
+					<div class="col-md-12 p-0 text-center ">
+						<button class="bg-white border border-dark index-favorite-btn">
+							<i class="material-icons align-middle index-favorite-icon "> favorite </i>
+						</button>
+						<button class="btn btn-success rounded-0 index-cart-btn text-uppercase font-weight-bold ">¡LO
+							QUIERO!<i class="material-icons align-middle index-cart-icon ">shopping_cart</i>
+						</button>
+					</div>
+				</div>
+
+				<!--Product Card-->
+				<div class=" col-6 col-md-4 my-1  mt-5 p-0">
+					<img class="img-fluid w-100" src="./img/product/producto1.jpg" alt="ASUS ROG 4 SLI BRIDGE">
+					<h6 class="font-weight-bold text-black mt-3  index-card-title ">ASUS ROG 4 WAY SLI BRIDGE</h6>
+					<div class=" d-flex justify-content-center align-items-end mb-2">
+						<h4 class="font-weight-bolder  mr-2 red-ig index-card-price ">$1,300 </h4>
+						<p class=" mb-1 index-card-iva "> MXN incluye IVA</p>
+					</div>
+					<div class="w-100"></div>
+					<div class="col-md-12 p-0 text-center ">
+						<button class="bg-white border border-dark index-favorite-btn">
+							<i class="material-icons align-middle index-favorite-icon "> favorite </i>
+						</button>
+						<button class="btn btn-success rounded-0 index-cart-btn text-uppercase font-weight-bold ">¡LO
+							QUIERO!<i class="material-icons align-middle index-cart-icon ">shopping_cart</i>
+						</button>
+					</div>
+				</div>
+
+
+
+			</div>
+		</div>
+
+		<!--Productos destacados-->
+		<div class="  pt-5">
+			<!-- TEXTO EN WEB -->
+			<h1 class=" d-none d-md-block text-uppercase  text-left index-ensambles pt-4 mt-1  pl-5 ml-md-4 "
+				style="font-size: 2.9rem;">
+				Productos<br>Destacados<div class="section-title-border">
+				</div>
+			</h1>
+			<!-- TEXTO EN MOBILE -->
+			<h2 class=" d-md-none text-uppercase font-weight-bold text-left index-ensambles pl-3"
+				style="font-size: 1.5rem;">
+				Productos<br>Destacados
+				<div class="section-title-border"></div>
+			</h2>
+
+
+
+			<div class="row">
+
+
+				<!--Product Card-->
+				<div class=" col-6 col-md-4 my-1  mt-5 p-0">
+					<img class="img-fluid w-100" src="./img/product/producto1.jpg" alt="ASUS ROG 4 SLI BRIDGE">
+					<h6 class="font-weight-bold text-black mt-3  index-card-title ">ASUS ROG 4 WAY SLI BRIDGE</h6>
+					<div class=" d-flex justify-content-center align-items-end mb-2">
+						<h4 class="font-weight-bolder  mr-2 red-ig index-card-price ">$1,300 </h4>
+						<p class=" mb-1 index-card-iva "> MXN incluye IVA</p>
+					</div>
+					<div class="w-100"></div>
+					<div class="col-md-12 p-0 text-center ">
+						<button class="bg-white border border-dark index-favorite-btn">
+							<i class="material-icons align-middle index-favorite-icon "> favorite </i>
+						</button>
+						<button class="btn btn-success rounded-0 index-cart-btn text-uppercase font-weight-bold ">¡LO
+							QUIERO!<i class="material-icons align-middle index-cart-icon ">shopping_cart</i>
+						</button>
+					</div>
+				</div>
+
+				<!--Product Card-->
+				<div class=" col-6 col-md-4 my-1  mt-5 p-0">
+					<img class="img-fluid w-100" src="./img/product/producto1.jpg" alt="ASUS ROG 4 SLI BRIDGE">
+					<h6 class="font-weight-bold text-black mt-3  index-card-title ">ASUS ROG 4 WAY SLI BRIDGE</h6>
+					<div class=" d-flex justify-content-center align-items-end mb-2">
+						<h4 class="font-weight-bolder  mr-2 red-ig index-card-price ">$1,300 </h4>
+						<p class=" mb-1 index-card-iva "> MXN incluye IVA</p>
+					</div>
+					<div class="w-100"></div>
+					<div class="col-md-12 p-0 text-center ">
+						<button class="bg-white border border-dark index-favorite-btn">
+							<i class="material-icons align-middle index-favorite-icon "> favorite </i>
+						</button>
+						<button class="btn btn-success rounded-0 index-cart-btn text-uppercase font-weight-bold ">¡LO
+							QUIERO!<i class="material-icons align-middle index-cart-icon ">shopping_cart</i>
+						</button>
+					</div>
+				</div>
+
+				<!--Product Card-->
+				<div class=" col-6 col-md-4 my-1  mt-5 p-0">
+					<img class="img-fluid w-100" src="./img/product/producto1.jpg" alt="ASUS ROG 4 SLI BRIDGE">
+					<h6 class="font-weight-bold text-black mt-3  index-card-title ">ASUS ROG 4 WAY SLI BRIDGE</h6>
+					<div class=" d-flex justify-content-center align-items-end mb-2">
+						<h4 class="font-weight-bolder  mr-2 red-ig index-card-price ">$1,300 </h4>
+						<p class=" mb-1 index-card-iva "> MXN incluye IVA</p>
+					</div>
+					<div class="w-100"></div>
+					<div class="col-md-12 p-0 text-center ">
+						<button class="bg-white border border-dark index-favorite-btn">
+							<i class="material-icons align-middle index-favorite-icon "> favorite </i>
+						</button>
+						<button class="btn btn-success rounded-0 index-cart-btn text-uppercase font-weight-bold ">¡LO
+							QUIERO!<i class="material-icons align-middle index-cart-icon ">shopping_cart</i>
+						</button>
+					</div>
+				</div>
+
+				<!--Product Card-->
+				<div class=" col-6 col-md-4 my-1  mt-5 p-0">
+					<img class="img-fluid w-100" src="./img/product/producto1.jpg" alt="ASUS ROG 4 SLI BRIDGE">
+					<h6 class="font-weight-bold text-black mt-3  index-card-title ">ASUS ROG 4 WAY SLI BRIDGE</h6>
+					<div class=" d-flex justify-content-center align-items-end mb-2">
+						<h4 class="font-weight-bolder  mr-2 red-ig index-card-price ">$1,300 </h4>
+						<p class=" mb-1 index-card-iva "> MXN incluye IVA</p>
+					</div>
+					<div class="w-100"></div>
+					<div class="col-md-12 p-0 text-center ">
+						<button class="bg-white border border-dark index-favorite-btn">
+							<i class="material-icons align-middle index-favorite-icon "> favorite </i>
+						</button>
+						<button class="btn btn-success rounded-0 index-cart-btn text-uppercase font-weight-bold ">¡LO
+							QUIERO!<i class="material-icons align-middle index-cart-icon ">shopping_cart</i>
+						</button>
+					</div>
+				</div>
+
+				<!--Product Card-->
+				<div class=" col-6 col-md-4 my-1  mt-5 p-0">
+					<img class="img-fluid w-100" src="./img/product/producto1.jpg" alt="ASUS ROG 4 SLI BRIDGE">
+					<h6 class="font-weight-bold text-black mt-3  index-card-title ">ASUS ROG 4 WAY SLI BRIDGE</h6>
+					<div class=" d-flex justify-content-center align-items-end mb-2">
+						<h4 class="font-weight-bolder  mr-2 red-ig index-card-price ">$1,300 </h4>
+						<p class=" mb-1 index-card-iva "> MXN incluye IVA</p>
+					</div>
+					<div class="w-100"></div>
+					<div class="col-md-12 p-0 text-center ">
+						<button class="bg-white border border-dark index-favorite-btn">
+							<i class="material-icons align-middle index-favorite-icon "> favorite </i>
+						</button>
+						<button class="btn btn-success rounded-0 index-cart-btn text-uppercase font-weight-bold ">¡LO
+							QUIERO!<i class="material-icons align-middle index-cart-icon ">shopping_cart</i>
+						</button>
+					</div>
+				</div>
+
+				<!--Product Card-->
+				<div class=" col-6 col-md-4 my-1  mt-5 p-0">
+					<img class="img-fluid w-100" src="./img/product/producto1.jpg" alt="ASUS ROG 4 SLI BRIDGE">
+					<h6 class="font-weight-bold text-black mt-3  index-card-title ">ASUS ROG 4 WAY SLI BRIDGE</h6>
+					<div class=" d-flex justify-content-center align-items-end mb-2">
+						<h4 class="font-weight-bolder  mr-2 red-ig index-card-price ">$1,300 </h4>
+						<p class=" mb-1 index-card-iva "> MXN incluye IVA</p>
+					</div>
+					<div class="w-100"></div>
+					<div class="col-md-12 p-0 text-center ">
+						<button class="bg-white border border-dark index-favorite-btn">
+							<i class="material-icons align-middle index-favorite-icon "> favorite </i>
+						</button>
+						<button class="btn btn-success rounded-0 index-cart-btn text-uppercase font-weight-bold ">¡LO
+							QUIERO!<i class="material-icons align-middle index-cart-icon ">shopping_cart</i>
+						</button>
+					</div>
+				</div>
+
+
+
+			</div>
+		</div>
+
+
+	</div>
+
+	<!-- INICIA SECCION OFERTAS-->
+	<div class="container mb-5 ">
+		<div class="p-1">
+
+			<h1 class=" d-none d-md-block text-uppercase font-weight-bold text-left text-white index-ensambles pl-1 pt-5"
+				style="font-size: 3.1rem;">
+				Ofertas <div class="section-title-border mb-5"></div>
+			</h1>
+			<h2 class=" d-md-none text-uppercase font-weight-bold text-left text-white mt-5" style="font-size: 1.9rem;">
+
+				Ofertas <div class="section-title-border mb-5"></div>
+			</h2>
+
+			<div class="row justify-content-around">
+
+
+
+				<div class="col col-md-2 bg-white col-12 ">
+					<!-- Ofertas aqui -->
+					<img class="img-fluid" src="./assets/square.png" alt=""></div>
+
+				<div class="col col-md-2 bg-white col-12 ">
+					<!-- Ofertas aqui -->
+					<img class="img-fluid" src="./assets/square.png" alt="">
+				</div>
+
+				<div class="col col-md-2 bg-white col-12 ">
+					<!-- Ofertas aqui -->
+					<img class="img-fluid" src="./assets/square.png" alt=""></div>
+
+				<div class="col col-md-2 bg-white col-12 ">
+					<!-- Ofertas aqui -->
+					<img class="img-fluid" src="./assets/square.png" alt="">
+				</div>
+
+
+
+			</div>
+		</div>
+
+	</div>
+
+	<!-- TERMINA SECCION OFERTAS-->
+
+
+	<div class="container">
+
+		<!--Marcas con las que Trabajamos (encabezado) -->
+		<h1 class=" d-none d-md-block text-uppercase font-weight-bold text-left text-white index-ensambles pl-1 pt-5"
+			style="font-size: 3rem;">
+			marcas con <br> las que trabajamos <div class="section-title-border mb-5"></div>
+		</h1>
+		<h2 class=" d-md-none text-uppercase font-weight-bold text-left text-white mt-5" style="font-size: 1.8rem;">
+			marcas
+			con <br> las que trabajamos <div class="section-title-border mb-5"></div>
+		</h2>
+
+
+
+		<p class="text-white d-none d-md-block" style="font-size: 1.7rem;">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Est,
+			magni quisquam
+			facere eaque earum officia necessitatibus ut, voluptas accusamus, aliquid numquam labore nesciunt totam.
+			Dolorum iste asperiores alias nesciunt possimus.
+		</p>
+		<p class="text-white d-md-none text-left index-ensambles" style="font-size: 0.8rem;">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Est,
+			magni quisquam
+			facere eaque earum officia necessitatibus ut, voluptas accusamus, aliquid numquam labore nesciunt totam.
+			Dolorum iste asperiores alias nesciunt possimus.
+		</p>
+	</div>
+
+	<!-- MARCAS CON LAS QUE TRABAJAMOS (IMAGEN) -->
+	<div class="container-fluid">
+		<img class="img-fluid" src="./assets/LOGOS-DE-MARCAS.png" alt="ASUS ROG 4 SLI BRIDGE">
+	</div>
+	</div>
+
+
+	<!-- Footer section -->
+
+	<!-- footer section ignite gaming -->
+
+	<footer class="footer-area">
+		<div class="container section-margin-footer">
+			<div class="contact-us-title">
+				<h1 class="h2">Contáctanos</h1>
+
+				<div class="contact-us-title-border"></div>
+			</div>
+
+			<div class="">
+				<div class="contact-us-logo" style="margin-top: 25px;">
+					<img style="margin-left: -10px;" src="./assets/logo-color.png" alt="logoignite" />
+				</div>
+
+				<div class="row">
+					<div class="col-md-4  border-right-w" style="margin-top: 20px; padding-left: 0;">
+						<div>
+							<i class="fas fa-map-marker-alt c-red"></i> <span
+								class="contact-us-data c-red">Dirección:</span>
+							<div class="textcolor" style="padding-left: 17px; margin-top: -25px;">
+								<br> Calle 50 número 369b <br> Entre calles 55 y 53F <br> Fracc. Francisco de Montejo.
+								<br>
+							</div>
+						</div>
+
+						<div style="margin-top: 20px;">
+							<i class="fas fa-phone-alt c-red"></i> <span class="contact-us-data c-red">Teléfono:</span>
+							<div class="textcolor" style="padding-left: 17px; margin-top: -25px;">
+								<br> (999) 195.28.01
+							</div>
+						</div>
+
+						<div style="margin-top: 20px;">
+							<i class="fab fa-whatsapp c-red"></i> <span class="contact-us-data c-red">WhatsApp:</span>
+							<div class="textcolor" style="padding-left: 17px; margin-top: -25px;">
+								<br> (999) 195.28.01
+							</div>
+						</div>
+
+						<div style="margin-top: 20px;">
+							<i class="fas fa-envelope c-red"></i> <span class="contact-us-data c-red">Email:</span>
+							<div class="textcolor" style="padding-left: 22px; margin-top: -25px;">
+								<br> <a href="mailto:ventas@gamingstore.com?subject=Contacto">ventas@gamingstore.com</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4 border-right-w mid-footer-container" style="margin-top: 20px;">
+						<div class="textcolor">
+							<span class="c-red">Políticas</span> <br>
+							<a href="#">Condiciones de Uso</a> <br>
+							<a href="#">Políticas de Garantía</a> <br>
+							<a href="#">Políticas de Privacidad</a>
+						</div>
+
+						<div class="textcolor" style="margin-top: 20px;">
+							<span class="c-red">Explorar</span> <br>
+							<a href="#">Preguntas Frecuentes</a> <br>
+							<a href="#">Contacto</a> <br>
+							<a href="#">Mapa del Sitio</a>
+						</div>
+					</div>
+
+					<div class="col-md-4" style="margin-top: 20px;">
+						<div class="textcolor">
+							<span class="c-red" style="padding-left: 25px; ">Pagos Seguros</span> <br>
+							<span>Aceptamos los siguientes métodos de pago.</span> <br>
+							<img src="./assets/PAGOS-BLANCO.png" alt="">
+						</div>
+					</div>
+				</div>
+
+				<div class="contact-us-social text-center" style="margin-top: 25px;">
+					<div class="social-media-bt">
+						Redes Sociales
+					</div>
+					<ul class="ct-socials list-unstyled list-inline">
+						<li style="display: inline-block;">
+							<a href="#" target="_blank">
+								<i class="fab fa-youtube"></i>
+							</a>
+						</li>
+						<li style="display: inline-block;">
+							<a href="#" target="_blank">
+								<i class="fab fa-instagram"></i>
+							</a>
+						</li>
+						<li style="display: inline-block;">
+							<a href="#" target="_blank">
+								<i class="fab fa-facebook-f"></i>
+							</a>
+						</li>
+						<li style="display: inline-block;">
+							<a href="#" target="_blank">
+								<i class="fab fa-whatsapp"></i>
+							</a>
+						</li>
+						<li style="display: inline-block;">
+							<a href="#" target="_blank">
+								<i class="fab fa-twitter-square"></i>
+							</a>
+						</li>
+					</ul>
+					<p class="text-white text-center mt-5">
+						made by
+						<a href="https://github.com/CarmesiServices">@CarmesiServices</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+	<!-- footer section ignite gamming end-->
+	<!-- Footer section end -->
+
+
+
+	<!--====== Javascripts & Jquery ======-->
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.slicknav.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.nicescroll.min.js"></script>
+	<script src="js/jquery.zoom.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+	<script src="js/main.js"></script>
+	<script src="./js/FontAwesomeConf.js"></script>
+
+</body>
+
+</html>

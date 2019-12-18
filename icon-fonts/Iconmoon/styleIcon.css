@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?2g8pzr');
+  src:  url('fonts/icomoon.eot?2g8pzr#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?2g8pzr') format('truetype'),
+    url('fonts/icomoon.woff?2g8pzr') format('woff'),
+    url('fonts/icomoon.svg?2g8pzr#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-login:before {
+  content: "\e900";
+}
+.icon-offer:before {
+  content: "\e901";
+}
+.icon-Procesador:before {
+  content: "\e902";
+}
+.icon-ram:before {
+  content: "\e903";
+}
+.icon-shop:before {
+  content: "\e904";
+}
+.icon-Tarjeta-de-video:before {
+  content: "\e905";
+}
