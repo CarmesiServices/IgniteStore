@@ -1831,17 +1831,95 @@ a {
 	left: 0;
 	height: fit-content;
 }
-
 .producto{
 	position: relative;
 	height: 400px;
-}
+} 
+
+
+.current-page {
+	color: #AC182E !important;
+  }
+  
+  .dropbtn {
+	background-color: black;
+	padding: 5px;
+	color: white;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+  }
+  
+  .dropdown {
+	position: relative;
+	display: inline-block;
+  }
+  
+  .dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+  }
+  
+  .dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+  }
+  
+  .dropdown-content a:hover {
+	background-color: #f1f1f1
+  }
+  
+  .dropdown:hover .dropdown-content {
+	display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+	background-color: black;
+  }
+  
+  
+  
+  .bg-dark-gray {
+	background-color: #151719;
+  }
+  
+  
+  /*  Existencias 
+  
+  Poner la clase .existencias-no cuando no haya existencias.
+  
+  Poner la clase .existencias-si cuando si haya existencias.
+  
+  */
+  
+  
+  .existencias-no h5 {
+	color: white;
+	background-color: #AC182E;
+  }
+  
+  .existencias-no span {
+	color: #AC182E;
+  }
+  
+  .existencias-si h5 {
+	color: white;
+	background-color: #28a745;
+  }
+  
+  .existencias-si span {
+	color: #28a745;
+  }
 
 /* --------------
   Product page
 ------------------*/
-
-
 
 .product-section {
 	padding-top: 70px;
@@ -3121,7 +3199,7 @@ a {
 
 }
 
-
+/*about Us*/
 
 .info:hover {
 	background-color: #444444;
